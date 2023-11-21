@@ -222,3 +222,57 @@ h1 {
     padding: 1rem 0rem 3rem;
 }
 
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.repo{
+  background-color: #7E57C2;
+  border: 0.25rem solid #673ab7;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 12rem;
+  max-width: 20rem;
+  margin-bottom: 2em;
+}
+
+.repo__li {
+  margin: 0 1em 1em 1em;
+  list-style-type: none;
+}
+
+.repo__name {
+  margin: 1rem 0 0.7rem 0;
+}
+
+.repo__link {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.repo__link:hover {
+  color: #d1c4e9;
+}
+
+.repo__pic {
+  margin-bottom: 1rem;
+}
+
+p{
+  margin-bottom: 0;
+}
+.repo__text {
+  color: #ede7f6;
+}
+
+.message {
+  color: white;
+  font-size: 1.5rem;
+  font: bold;
+  margin-bottom: 3rem;
+}
